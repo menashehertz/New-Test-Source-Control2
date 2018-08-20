@@ -24,11 +24,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Line" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5pu-fc-vtd">
+                                <rect key="frame" x="140" y="140" width="95" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="oR4-ZQ-ohc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="104" id="B8T-Ll-W7v"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oR4-ZQ-ohc" secondAttribute="trailing" constant="104" id="DqV-T1-ofL"/>
+                            <constraint firstItem="5pu-fc-vtd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="Ikk-3V-Afx"/>
+                            <constraint firstItem="5pu-fc-vtd" firstAttribute="top" secondItem="oR4-ZQ-ohc" secondAttribute="bottom" constant="33" id="Q3L-nO-yK7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5pu-fc-vtd" secondAttribute="trailing" constant="140" id="XkZ-an-fPG"/>
                             <constraint firstItem="oR4-ZQ-ohc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="66" id="wZo-Ax-bb3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
